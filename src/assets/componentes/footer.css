@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+li {
+    list-style: none;
+}
+
+
 .footerConteiner{
     padding: 0;
     margin: 0;
@@ -9,4 +14,51 @@
     height: 454px;
     background-color: #1F1F1F;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+        
+}
+.footerConteiner h5 {
+    font-size: 18px;
+}
+.logoFooter{
+    width: 307px;
+    height: 78px;
+
+}
+.info-category{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-category .info{
+    width: 278px;
+    height: 135px;
+    font-size: 17px;
+}
+
+.info-category .category{
+    width: 278px;
+    height: 135px;
+    font-size: 17px;
+}
+
+
+.contato {
+    width: 168px;
+    height: 233px;
+    font-size: 17px;
+}
+.rodape {
+    font-size: 13px;
+    border-top: #FFFFFF;
+    position: absolute;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
 }

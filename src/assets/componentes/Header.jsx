@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
+import Logo from './Logo';
 
 function Header() {
   return (
@@ -9,8 +10,7 @@ function Header() {
       <div className="top">
         {/* Logo vai ser trocada depois */}
         <div className="logo">
-            <div className="logoIcon">❯_</div>
-            <div className="logoName">Digital Store</div>
+            <Logo />
         </div>
 
         {/* Busca lambrar de fazer a funcion para funcinar a pesquisa*/}
