@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
-import Logo from './Logo';
+import { HeaderLogo } from './Logo';
 
 function Header() {
   return (
@@ -9,9 +9,9 @@ function Header() {
       {/* Topo: logo, busca, login e carrinho */}
       <div className="top">
         {/* Logo vai ser trocada depois */}
-        <div className="logo">
-            <Logo />
-        </div>
+        
+            <HeaderLogo />
+        
 
         {/* Busca lambrar de fazer a funcion para funcinar a pesquisa*/}
         <div className="search">
@@ -37,20 +37,7 @@ function Header() {
           <Link className='cad' to="/">Cadastre-se</Link>
           <button>Entrar</button>
            <div className="cart-wrapper">
-            <svg 
-            className="cart"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="feather feather-shopping-cart">
-            <circle cx="9" cy="21" r="1" />
-            <circle cx="20" cy="21" r="1" />
-            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-            </svg>
+            <img src="../src/assets/mini-cart.svg" alt="" />
             <div className="count">2</div>
             </div>
         </div>

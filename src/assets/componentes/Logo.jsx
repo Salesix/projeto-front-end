@@ -1,12 +1,6 @@
 import './logo.css';
 
-const Logo = () => {
-    return ( 
-        <div className="logo">
-            <div className="logoIcon">❯_</div>
-            <div className="logoName">Digital Store</div>
-        </div>
-     );
-}
- 
-export default Logo;
+const HeaderLogo = () => <img src="../src/assets/logo-header.svg" alt="Logo Header" />;
+const FooterLogo = () => <img src="../src/assets/logo-footer.svg" alt="Logo Footer" />;
+
+export { HeaderLogo, FooterLogo };

@@ -8,16 +8,13 @@ li {
 
 
 .footerConteiner{
-    padding: 0;
-    margin: 0;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     height: 454px;
     background-color: #1F1F1F;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    padding: 40px 20px 20px;
         
 }
 .footerConteiner h5 {
@@ -34,31 +31,25 @@ li {
 }
 
 .info-category .info{
-    width: 278px;
+    min-width:200px ;
+    max-width: 300px;
     height: 135px;
     font-size: 17px;
+    padding: 10px;
+    flex: 1;
 }
 
-.info-category .category{
-    width: 278px;
-    height: 135px;
-    font-size: 17px;
-}
-
-
-.contato {
-    width: 168px;
-    height: 233px;
-    font-size: 17px;
-}
 .rodape {
-    font-size: 13px;
-    border-top: #FFFFFF;
-    position: absolute;
-    
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-top: #ffffff38 solid 1px ;
+
 }
 
-.icon {
+.icons {
     width: 20px;
     height: 20px;
+    padding: 30px 30px 0 0;
 }

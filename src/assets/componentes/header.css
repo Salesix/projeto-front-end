@@ -18,7 +18,7 @@ header {
   /* Topo */
   header .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
@@ -30,7 +30,7 @@ header {
   header .search {
     position: relative;
     flex: 1;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
   }
   header .search input {
@@ -57,8 +57,8 @@ header {
   right: 12px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   color: #999;
   pointer-events: none;
 }
@@ -111,6 +111,7 @@ header {
   position: relative;
   width: 24px;
   height: 24px;
+  padding-left: 33px;
 }
   header .actions .cart {
   width: 24px;
