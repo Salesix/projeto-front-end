@@ -7,7 +7,7 @@ header {
     display: flex;
     flex-direction: column;
     padding-top: 34px;
-    padding-left: 100px;
+    margin-left: 5%;
     padding-right: 100px;
     background-color: #ffffff;
     height: 192px;
@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    
     padding-bottom: 50px;
   }
   
@@ -168,3 +168,11 @@ header {
     color: #C92071;
     font-weight: bold;
   }
+
+  header nav .ativo {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #C92071;
+  font-weight: bold;
+}

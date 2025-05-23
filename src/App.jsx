@@ -1,25 +1,18 @@
+// App.jsx
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Header from './assets/componentes/Header';
+import Layout from './pages/Layout';
 import HomePage from './pages/HomePage';
-import Footer from './assets/componentes/Footer';
+import ProductListingPage from './pages/ProductListingPage';
+import ProductViewPage from './pages/ProductViewPage';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Routes>
-        <Route path="/" element={<h1></h1>} />
-        <Route path="/" element={<h1>Produtos</h1>} />
-        <Route path="/" element={<h1>Categorias</h1>} />
-        <Route path="/" element={<h1>Meus Pedidos</h1>} />
-        <Route path="/" element={<h1>Cadastro</h1>} />
-      </Routes>
-
-      <HomePage/>
-
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout><HomePage /></Layout>} />
+      <Route path="/produtos" element={<Layout><ProductListingPage /></Layout>} />
+      <Route path="/categorias" element={<Layout><ProductViewPage /></Layout>} />
+    </Routes>
   );
 }
 

@@ -25,7 +25,7 @@ const Footer = () => {
                     <li>Meus Pedidos</li>
                 </ul>
                 </div>
-                <div className="info">
+                <div className="cat">
                 <h5>Categorias</h5>
                 <ul>
                     <li>Camisetas</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="info">
+            <div className="end">
             <h5>Contato</h5>
             <ul>
                 <li>Av. Exemplo de texto, 123 - 3 andar - Bairro, Cidade, Estado, 12345-123</li>
